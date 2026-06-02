@@ -34,7 +34,7 @@ public class Calculator {
         System.out.println(Calculator.subtract(689, 987));
 
         try {
-            // Trying to instantiate classe
+            // Trying to instantiate class
             Calculator calculator = new Calculator();
         } catch (AssertionError error) {
             System.out.println(error.getMessage());

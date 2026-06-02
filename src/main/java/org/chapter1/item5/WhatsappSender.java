@@ -1,0 +1,8 @@
+package org.chapter1.item5;
+
+public class WhatsappSender implements MessageSender {
+    @Override
+    public void send(String message) {
+        System.out.println("Sending whatsapp message: " + message);
+    }
+}
