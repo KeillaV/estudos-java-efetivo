@@ -1,4 +1,4 @@
-package org.chapter1.item2;
+package org.chapter2.item2;
 
 public class OrderPizza {
 

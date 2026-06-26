@@ -1,4 +1,4 @@
-package org.chapter1.item1;
+package org.chapter2.item1;
 
 public class User {
 

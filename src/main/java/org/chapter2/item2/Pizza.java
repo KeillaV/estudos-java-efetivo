@@ -1,4 +1,4 @@
-package org.chapter1.item2;
+package org.chapter2.item2;
 
 // Item 2: consider using a builder when there's too many parameters
 public class Pizza {

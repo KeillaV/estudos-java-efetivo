@@ -1,4 +1,4 @@
-package org.chapter1.item4;
+package org.chapter2.item4;
 
 // Item 4: Use non instantiation with private constructors
 public class Calculator {

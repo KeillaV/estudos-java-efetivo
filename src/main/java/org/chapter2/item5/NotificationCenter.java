@@ -1,4 +1,4 @@
-package org.chapter1.item5;
+package org.chapter2.item5;
 
 // Item 5: Prefer using dependency injection
 public class NotificationCenter {

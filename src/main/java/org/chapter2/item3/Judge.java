@@ -1,4 +1,4 @@
-package org.chapter1.item3;
+package org.chapter2.item3;
 
 // Item 3: implementing singleton using enum
 public enum Judge {
