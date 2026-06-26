@@ -1,4 +1,4 @@
-package org.chapter3.itens14;
+package org.chapter3.item14;
 
 // Item 14: Implementing Comparable interface
 public class Book implements Comparable<Book>{

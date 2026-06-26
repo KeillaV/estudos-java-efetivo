@@ -1,4 +1,4 @@
-package org.chapter3.itens14;
+package org.chapter3.item14;
 
 import java.util.Comparator;
 
@@ -11,10 +11,10 @@ public class Anime implements Comparable<Anime> {
     private final Genre genre;
     private final String studio;
     private final int episodes;
-    public static final Comparator<Anime> COMPARATOR = comparing((Anime anime) -> anime.title)
-                                                    .thenComparing(anime -> anime.genre)
-                                                    .thenComparing(anime -> anime.studio)
-                                                    .thenComparingInt(anime -> anime.episodes);
+    public static final Comparator<Anime> COMPARATOR = comparing(Anime::getTitle, String.CASE_INSENSITIVE_ORDER)
+                                                    .thenComparing(Anime::getGenre)
+                                                    .thenComparing(Anime::getStudio, String.CASE_INSENSITIVE_ORDER)
+                                                    .thenComparingInt(Anime::getEpisodes);
 
     public Anime(final String title, final Genre genre, final String studio, final int episodes) {
         this.title = title;
